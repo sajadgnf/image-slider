@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 30vw;
+  height: 80vh;
+}
+
+.after_image_container,
+.before_image_container {
+  position: absolute;
+  width: 30vw;
+  height: 80vh;
+}
+
+.before_image_container {
+  width: 15vw;
+  overflow: hidden;
+}
+
+img {
+  width: 30vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.slider {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #fff;
+  width: 2px;
+  height: 80vh;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */
